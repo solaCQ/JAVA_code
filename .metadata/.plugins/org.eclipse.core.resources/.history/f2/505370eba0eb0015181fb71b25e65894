@@ -1,0 +1,32 @@
+
+public class Method {
+	public static void main(String[] args){
+		Method printstart = new Method();
+		printstart.printstar(20);
+	}
+	
+	//使用void声明方法为实例方法
+	public void printstar(int n){
+		//此次i要声明类型，加上int
+		for(int i=0;i<n;i++){
+			System.out.println("*");
+		}
+	}
+	
+	//使用static声明方法为静态方法
+	public static int sum(){
+		int i = 3;
+		int j = 4;
+		return i+j;
+	}
+	
+	//方法名相同，参数数量或类型不同称为方法重载
+	public static int sum(int i,int j){
+		return i+j;
+	}
+	
+}
+
+//方法必须写在类里面，下面这个方法编译会报错
+//void err(){	
+//}

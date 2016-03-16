@@ -1,0 +1,30 @@
+/**
+ * 
+ * @author chenqiang
+ *类的构成
+ */
+
+
+
+public class Person {
+	
+	public static void main(String[] args){
+		
+	}
+	
+	//属性
+	int pid;
+	String name;
+	int age;
+	
+	//构造方法
+	Person(){
+		//跟类同名
+	}
+	
+	//普通方法
+	public void display(int i){
+		System.out.println(i);
+	}
+	
+}

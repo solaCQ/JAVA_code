@@ -1,0 +1,41 @@
+/**
+ * 
+ * @author chenqiang
+ *类的构成:属性、构造方法、方法
+ */
+
+
+
+public class Person {
+	
+	public static void main(String[] args){
+		//使用new关键字，实例化对象
+		Person kim = new Person(); 
+		//对象使用类里面的属性和方法
+		kim.age = 20;
+		kim.name = "kim";
+		
+	}
+	
+	
+	
+	
+	
+	//属性
+	int pid;
+	String name;
+	int age;
+	
+	//构造方法
+	Person(){
+		//跟类同名
+	}
+	
+	//普通方法
+	public static void display(){
+		String output;
+		output = pid+","+name+","+age;
+		System.out.println(i);
+	}
+	
+}
