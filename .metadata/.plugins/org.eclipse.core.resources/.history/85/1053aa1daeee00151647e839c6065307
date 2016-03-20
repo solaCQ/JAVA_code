@@ -1,0 +1,56 @@
+/**
+ * 
+ * @author chenqiang
+ *构造函数，  constructor
+ */
+public class Constructor {
+
+	public static void main(String[] args)
+	{
+		//实例化是调用了构造方法
+		Person1 per1 = new Person1();
+		per1.display();
+	}
+}	
+
+
+
+class Person1
+	{
+	
+		
+	 
+		//默认构造方法，无参数的构造方法
+		public Person1()
+		{
+			//实例化变量
+			System.out.println("Person");
+			//给实例变量赋初值
+			int pid = 1;
+			int age = 20;
+			String name = "tom";
+		}
+		
+		int pid;
+		String name;
+		int age;
+		
+		void display(){
+			String msg = pid+","+name+","+age;
+			System.out.println(msg);
+		}
+		
+		
+		//构造方法重载
+		public Person1(int a,String name,int b)
+		{
+			
+		}
+		
+		
+		
+	}
+	
+	
+	
+

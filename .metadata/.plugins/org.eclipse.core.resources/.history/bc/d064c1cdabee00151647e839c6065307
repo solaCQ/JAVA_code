@@ -1,0 +1,23 @@
+/**
+ * 
+ * @author chenqiang
+ *构造函数，  constructor
+ */
+public class Constructor {
+
+	public static void main(String[] args)
+	{
+		
+	}
+	
+	class Person()
+	{
+		//构造函数与类同名，大小写相同
+		public Person(){
+			
+		}
+	}
+	
+	
+	
+}

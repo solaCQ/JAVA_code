@@ -1,0 +1,23 @@
+
+public class ThisKeyWord {
+	public static void main(String[] args)
+	{
+		
+		
+		
+	}
+
+}
+
+class Person2
+{
+	int pid;
+	String name;
+	int age;
+	
+	void display()
+	{
+		msg = pid+","+name+","+age;
+		System.out.println(msg);
+	}
+}
